@@ -1,0 +1,13 @@
+# Data pribadi
+sessions/
+logs/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# File sementara
+*.log
+.env
+.DS_Store
+Thumbs.db
