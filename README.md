@@ -97,7 +97,7 @@ npm install express@4.18.2 whatsapp-web.js@latest qrcode-terminal --ignore-scrip
 🚀 LANGKAH 5: JALANKAN BOT
 
 ```bash
-node index.js
+cd ~/BOTWA-MESSENGER- && node index.js
 ```
 
 ---
