@@ -162,3 +162,122 @@ Langkah Keterangan
 - KIRIM BERULANG → dengan jumlah & interval
 
 ---
+📨 PENJELASAN 3 MODE PENGIRIMAN PESAN
+
+---
+
+1️⃣ KIRIM SEKALI
+
+Keterangan Detail
+Fungsi Mengirim 1 pesan ke 1 nomor
+Contoh Anda ingin mengirim "Halo" ke Aji
+Cara pakai Isi 1 nomor → tulis pesan → klik KIRIM SEKALI
+
+Contoh:
+
+```
+Nomor: 08123456789
+Pesan: Halo Aji, ada rapat jam 10
+Hasil: ✅ Pesan terkirim ke 08123456789 (1x)
+```
+
+---
+
+2️⃣ BROADCAST
+
+Keterangan Detail
+Fungsi Mengirim 1 pesan ke BANYAK nomor sekaligus
+Contoh Anda ingin mengirim "Selamat pagi" ke 5 teman sekaligus
+Cara pakai Isi nomor dipisah koma → tulis pesan → klik BROADCAST
+
+Contoh:
+
+```
+Nomor: 08123456789, 08123456788, 08123456787
+Pesan: Selamat pagi, jangan lupa sarapan!
+Hasil: 
+  ✅ Terkirim ke 08123456789
+  ✅ Terkirim ke 08123456788
+  ✅ Terkirim ke 08123456787
+```
+
+---
+
+3️⃣ KIRIM BERULANG
+
+Keterangan Detail
+Fungsi Mengirim pesan BERULANG KALI ke 1 nomor
+Contoh Anda ingin mengirim "Ingat janji" 5x dengan jeda 2 detik
+Cara pakai Isi 1 nomor → tulis pesan → atur JUMLAH & INTERVAL → klik KIRIM BERULANG
+
+Contoh:
+
+```
+Nomor: 08123456789
+Pesan: Jangan lupa janji jam 3 sore!
+Jumlah: 5
+Interval: 3 detik
+
+Hasil:
+  [1/5] ✅ Terkirim (detik ke 0)
+  [2/5] ✅ Terkirim (detik ke 3)
+  [3/5] ✅ Terkirim (detik ke 6)
+  [4/5] ✅ Terkirim (detik ke 9)
+  [5/5] ✅ Terkirim (detik ke 12)
+```
+
+---
+
+📊 PERBANDINGAN KETIGANYA
+
+Fitur Kirim Sekali Broadcast Kirim Berulang
+Jumlah nomor 1 nomor Banyak nomor 1 nomor
+Jumlah pesan 1 kali 1 kali per nomor Banyak kali
+Bisa atur interval ❌ Tidak ❌ Tidak ✅ Ya
+Bisa delay random ❌ Tidak ❌ Tidak ✅ Ya
+Contoh penggunaan Chat pribadi Pengumuman grup Pengingat berkala
+
+---
+
+🎯 KAPAN PAKAI YANG MANA?
+
+Situasi Mode yang Tepat
+Chat personal dengan 1 orang Kirim Sekali
+Info ke banyak anggota grup Broadcast
+Mengingatkan seseorang berkali-kali Kirim Berulang
+Promosi ke banyak nomor Broadcast
+Test koneksi bot Kirim Sekali
+
+---
+
+📋 CONTOH KASUS
+
+Kasus 1: Mau ngajak teman makan siang
+
+```
+Mode: Kirim Sekali
+Nomor: 08123456789
+Pesan: "Makan siang yuk di warteg!"
+```
+
+Kasus 2: Mau info ke semua anggota grup
+
+```
+Mode: Broadcast
+Nomor: 08123456789, 08123456788, 08123456787, 08123456786
+Pesan: "Rapat dimajukan jadi jam 9 pagi"
+```
+
+Kasus 3: Mau diingatkan setiap 5 menit
+
+```
+Mode: Kirim Berulang
+Nomor: 08123456789
+Pesan: "Jangan lupa minum obat"
+Jumlah: 10
+Interval: 300 (5 menit)
+```
+
+---
+
+JELAS? SUDAH PAHAM PERBEDAAN KETIGANYA? 🚀
