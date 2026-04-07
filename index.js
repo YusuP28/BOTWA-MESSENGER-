@@ -344,9 +344,12 @@ async function fetchLogs() {
         if (logs.length === 0) {
             logArea.innerHTML = '<div class="log-entry">📭 Belum ada log</div>';
         } else {
-            logArea.innerHTML = logs.map(log => 
+            // Log baru muncul di BAWAH (seperti chat WhatsApp)
+            const reversedLogs = [...logs].reverse();
+            logArea.innerHTML = reversedLogs.map(log => 
                 '<div class="log-entry log-' + log.type + '">[' + log.time + '] ' + log.msg + '</div>'
             ).join('');
+            // Scroll otomatis ke BAWAH agar log terbaru terlihat
             logArea.scrollTop = logArea.scrollHeight;
         }
     } catch(e) {}
