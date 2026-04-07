@@ -47,14 +47,6 @@ Untuk Ditambahkan di GitHub (README.md)
 3. Download dan install APK tersebut
 4. Buka aplikasi **Termux**
 
-### B. Install Termux:X11 (Untuk Tampilan Dashboard)
-
-1. Kunjungi: `https://github.com/termux/termux-x11/releases`
-2. Download file: `app-arm64-v8a-debug.apk`
-3. Install APK tersebut
-
----
-
 ## 📦 LANGKAH 2: INSTALL PAKET DI TERMUX
 
 **Buka Termux, lalu copy paste perintah ini satu per satu:**
@@ -144,14 +136,6 @@ Langkah Keterangan
 ---
 
 🌐 LANGKAH 8: BUKA DASHBOARD
-
-Opsi 1: Dari Termux:X11 (Jika terinstall)
-
-1. Buka aplikasi Termux:X11
-2. Buka Chromium (browser)
-3. Ketik di address bar: http://127.0.0.1:3000
-
-Opsi 2: Dari Chrome HP
 
 1. Buka Chrome di HP
 2. Ketik di address bar: http://127.0.0.1:3000
