@@ -228,16 +228,6 @@ Hasil:
 
 ---
 
-📊 PERBANDINGAN KETIGANYA
-
-Fitur Kirim Sekali Broadcast Kirim Berulang
-Jumlah nomor 1 nomor Banyak nomor 1 nomor
-Jumlah pesan 1 kali 1 kali per nomor Banyak kali
-Bisa atur interval ❌ Tidak ❌ Tidak ✅ Ya
-Bisa delay random ❌ Tidak ❌ Tidak ✅ Ya
-Contoh penggunaan Chat pribadi Pengumuman grup Pengingat berkala
-
----
 
 🎯 KAPAN PAKAI YANG MANA?
 
